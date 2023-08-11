@@ -93,3 +93,24 @@ button.success-color {
     color: white;
 }
 
+
+
+
+/* Estilo base - computador */
+body {
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.donation-container {
+    padding: 20px;
+}
+
+.pix-box #pixCode {
+    font-size: 16px;
+}
+

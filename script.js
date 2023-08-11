@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", function() {
                         no: {question: "{name} te convidou para algum evento importante? Casamento, formatura, torneio de jiu-jitsu da avó, etc?}",
                              yes: {result: "Então chama, pelo menos pela consideração!"},
                              no: {question: "{name} te convidou para os últimos 2 aniversários dela/dele?",
-                                    yes: "Pela consideração, 80% de mim convidaria {name}",
-                                    no: "Deixa quieto, chama não kkkk deve nem saber q tu vai casar"
+                                    yes: {result: "Pela consideração, 80% de mim convidaria {name}"},
+                                    no: {result: "Deixa quieto, chama não kkkk deve nem saber q tu vai casar"}
                                 }
                     } 
                 }
