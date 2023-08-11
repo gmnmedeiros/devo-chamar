@@ -41,16 +41,19 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             no: { question: "{name} é colega de trabalho?",
                 yes: { question: "{name} é uma/um BOM colega de trabalho?",
-                    yes: {question: "Mas {name} já marcou reunião com você no fim do expediente de uma sexta-feira?",
-                            yes: {question: "Era realmente urgente?", no: {result: "{name} não é uma/um bom colega de trabalho. Não chame." },
-                                    yes: {question: "{name} já te ajudou o suficiente no trabalho para você sentir que lhe deve vários favores?",
-                                                yes: {result: "É melhor chamar (e talvez seja bom vc se esforçar mais no seu trabalho tbm..)"},
-                                                no: {question: "Você interage com {name} fora do ambiente de trabalho?", 
-                                                    no: {result: "Pode jogar um cara ou coroa aí, mas eu não chamaria."},
-                                                    yes: {result: "É... nesse caso, vale a pena chamar. Parece uma boa amizade."}
-                                                }
+                    yes: {
+                        question: "Mas {name} já marcou reunião com você no fim do expediente de uma sexta-feira?",
+                            yes: {question: "Era realmente urgente?", 
+                                no: {result: "{name} não é uma/um bom colega de trabalho. Não chame." },
+                                yes: {question: "{name} já te ajudou o suficiente no trabalho para você sentir que lhe deve vários favores?",
+                                    yes: {result: "É melhor chamar (e talvez seja bom vc se esforçar mais no seu trabalho tbm..)"},
+                                    no: {question: "Você interage com {name} fora do ambiente de trabalho?", 
+                                            no: {result: "Pode jogar um cara ou coroa aí, mas eu não chamaria."},
+                                            yes: {result: "É... nesse caso, vale a pena chamar. Parece uma boa amizade."}}
                                 }
-                        }
+                        },
+                        no: {result: "Deixa quieto.. se {name} achar ruim, você manda reclamarem no RH 💅"}  }
+
                     }, 
                     no: {result: "Deixa quieto.. se {name} achar ruim, você manda reclamarem no RH 💅"}  },
                 
