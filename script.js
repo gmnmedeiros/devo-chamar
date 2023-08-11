@@ -23,15 +23,16 @@ document.addEventListener("DOMContentLoaded", function() {
                     yes: { result: "Convida! {name} deve ser uma pessoa legal :)" },
 
                     no: { question: "Você e {name} se falam regularmente?",
-                        yes: {question: "Você chamou pessoas do mesmo círculo de amizades que {name}?",
+                        no: {result: "ahh, então {name} talvez não saiba do casamento nem pelo insta dos outros... tá safe!"},
+                        yes: {question: "Você chamou pessoas do mesmo círculo de amizades que {name}?", 
                                 yes: {result: "Faz o esforço de chamar, se não vai ficar chato"}, 
                         
-                        no: {question: "{name} te convidou para algum evento importante? Casamento, formatura, torneio de jiu-jitsu da avó, etc?}",
-                             yes: {result: "Então chama, pelo menos pela consideração!"},
-                             no: {question: "{name} te convidou para os últimos 2 aniversários dela/dele?",
-                                    yes: {result: "Pela consideração, 80% de mim convidaria {name}"},
-                                    no: {result: "Deixa quieto, chama não kkkk deve nem saber q tu vai casar"}
-                                }}
+                                no: {question: "{name} te convidou para algum evento importante? Casamento, formatura, torneio de jiu-jitsu da avó, etc?}",
+                                    yes: {result: "Então chama, pelo menos pela consideração!"},
+                                    no: {question: "{name} te convidou para os últimos 2 aniversários dela/dele?",
+                                            yes: {result: "Pela consideração, 80% de mim convidaria {name}"},
+                                            no: {result: "Deixa quieto, chama não kkkk deve nem saber q tu vai casar"}
+                                        }}
                     } 
                 }
             },
