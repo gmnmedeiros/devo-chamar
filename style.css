@@ -1,0 +1,95 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#app {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #000;
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+h1 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1a1a1a;
+}
+
+#responseButtons {
+    display: flex;
+    justify-content: center;
+}
+
+#yesBtn, #noBtn {
+    margin: 0 5px;  
+}
+
+button {
+    margin: 20px auto; 
+}
+
+.donation-container {
+    background-color: #333;
+    padding: 20px;  /* Aumento do padding */
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    align-self: center;
+    font-size: 14px;  /* Redução do tamanho da fonte */
+}
+
+#pixCode {
+    width: 70%; 
+    padding: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;  /* Redução do tamanho da fonte do código Pix */
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.pix-box {
+    display: flex;
+    justify-content: space-between; /* Alterado para espaço entre */
+    align-items: center;
+    margin-top: 10px;
+}
+
+button.original-color {
+    background-color: black;
+    color: white;
+}
+
+button.success-color {
+    background-color: green;
+    border: 2px solid green;
+    color: white;
+}
+
