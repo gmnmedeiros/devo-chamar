@@ -114,3 +114,20 @@ button {
     font-size: 16px;
 }
 
+#header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#header a {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    text-decoration: none;
+}
+
+#header a:hover {
+    background-color: #1a1a1a;
+}
