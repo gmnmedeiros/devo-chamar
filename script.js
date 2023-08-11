@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                             yes: {result: "É... nesse caso, vale a pena chamar. Parece uma boa amizade."}}
                                 }
                         },
-                        no: {result: "Deixa quieto.. se {name} achar ruim, você manda reclamarem no RH 💅"}  }
+                        no: {result: "Valorize quem valoriza suas sextas!"}
 
                     }, 
                     no: {result: "Deixa quieto.. se {name} achar ruim, você manda reclamarem no RH 💅"}  },
