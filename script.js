@@ -5,21 +5,18 @@ document.addEventListener("DOMContentLoaded", function() {
                 question: "Mas {name} é família próxima mesmo??",
                     yes: { question: "E {name} mora longe?", 
                            yes: {question: "Você/seus pais teriam que pagar a passagem de {name}?", 
-                                    yes:{result: "Vish... não vou me meter nessa não 😶‍🌫️"}, 
-                                    no: {result: "Ué, qual é o B.O. então? Chama, pô"}
-                                }, 
-                           no: {result: "Achei mto estranho você querer usar esse app pra decidir se convida {name}... Família próxima, po. E mora perto.. Tem que chamar.." }},
+                                    yes:{result: "Vish... não vou me meter nessa não 😶‍🌫️"}, no: {result: "Ué, qual é o B.O. então? Chama, pô"}}, 
+                        
+                           no: {result: "Achei mto estranho você querer usar esse app pra decidir se convida {name}... Família próxima, po. Tem que chamar.." },
                     
-                    no: { question: "Hmmm... você e {name} se falam regularmente?", 
-                            yes: {result: "Ah, então chama!"},
-                            no: {question: "Mas se dão bem nos eventos de família?", 
-                                    yes: {result: "Convida... pelos velhos tempos na casa de vó!"},
-                                    no: {question: "Seus pais insistem que {name} vá, né?", 
-                                        yes: {result: "É.. tem que chamar."},
-                                        no: {result: "Hmmmm, eu não chamaria. 🫥"}}}
+                    no: { question: "Hmmm... você e {name} se falam regularmente?", yes: {result: "Ah, então chama!"},
+                        no: {question: "Mas se dão bem nos eventos de família?", yes: {result: "Convida... pelos velhos tempos na casa de vó!"},
+                            no: {question: "Seus pais insistem que {name} vá, né?", yes: {result: "É.. tem que chamar."},
+                                    no: {result: "Hmmmm, eu não chamaria. 🫥"}}
                     }
-                },
-            
+                }
+            }
+        },
         no: {
             question: "{name} está em algum círculo de amigos?",
             yes: {
